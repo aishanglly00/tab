@@ -1,0 +1,85 @@
+
+*{
+	padding: 0;
+	margin: 0;
+	font-size: 12px;
+	list-style: none;
+}
+
+body{
+	display: block;
+	background-color: whitesmoke;
+}
+
+.tab-box{
+	width: 290px;
+	height: 108px;
+	border: 1px solid whitesmoke;
+	background-color: white;
+	margin: 10px;
+	overflow: hidden;
+}
+
+.tab-title{
+	height: 24px;
+	background-color: aliceblue;
+	position: relative;
+	overflow: hidden;
+}
+
+.tab-title ul{
+	width: 292px;
+	height: 24px;
+	margin-top: 4px;
+	margin-right: -1px;
+	padding: 0 8px;
+	position: relative;
+}
+
+.tab-title ul li{
+	float: left;
+	width: 32px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	padding: 0 11px;
+	overflow: hidden;
+}
+
+.tab-box a:link,.tab-title a:active{
+	text-decoration: none;
+	color: black;
+}
+
+.tab-box a:hover,.tab-title a:visited{
+	color: red;
+}
+
+.tab-title .selected{
+	font-weight: 700;
+	background: white;
+}
+
+.tab-box .tab-body{
+	width: 290px;
+	height: 65px;
+}
+.tab-box .tab-body .mod{
+	margin: 0 10px;
+	height: 50px;
+	padding-top: 15px;
+	padding-bottom: 6px;
+	overflow: hidden;
+}
+
+.tab-box .tab-body .mod li{
+	float: left;
+	height: 25px;
+	line-height: 25px;
+	margin-right: 30px;
+	overflow: hidden;
+}
+.tab-box .tab-body .h{
+	color: red;
+}
+
